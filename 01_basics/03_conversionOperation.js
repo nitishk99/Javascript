@@ -1,16 +1,19 @@
-let score = "hitesh"
+let score = "Nitish"
 
-//console.log(typeof score);
-//console.log(typeof(score));
+console.log(typeof score);
+console.log(typeof(score));
 
 let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
-//console.log(valueInNumber);
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
 
 
-// "33" => 33
-// "33abc" => NaN
-//  true => 1; false => 0
+// Number("33")  => 33
+// Number("33abc") => NaN
+// Number(null)  => 0
+// Number(undefined)  => NaN
+// Number(true) => 1;  Number(false) => 0
+// Number("ABC")  => NaN
 
 let isLoggedIn = "hitesh"
 
