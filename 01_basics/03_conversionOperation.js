@@ -1,3 +1,5 @@
+//NUMBER CONVERSION
+
 let score = "Nitish"
 
 console.log(typeof score);
@@ -15,20 +17,34 @@ console.log(valueInNumber);
 // Number(true) => 1;  Number(false) => 0
 // Number("ABC")  => NaN
 
-let isLoggedIn = "hitesh"
+
+//BOOLEAN CONVERSION
+
+let isLoggedIn = "nitish"
+let isLoggedOut = ""
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-//  console.log(booleanIsLoggedIn);
+let booleanIsLoggedOut = Boolean(isLoggedOut)
+
+//empty string to boolean conversion will give false
+console.log(booleanIsLoggedIn);  // => true
+console.log(booleanIsLoggedOut); // false
 
 // 1 => true; 0 => false
 // "" => false
-// "hitesh" => true
+// "nitish" => true
+
+
+//STRING CONVERSION
 
 let someNumber = 33
 
 let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
+
+
+
 
 // *********************** Operations ***********************
 
@@ -44,10 +60,10 @@ let negValue = -value
 // console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " nitish"
 
 let str3 = str1 + str2
-// console.log(str3);
+ console.log(str3);
 
 // console.log("1" + 2);
 // console.log(1 + "2");
@@ -56,8 +72,9 @@ let str3 = str1 + str2
 
 // console.log( (3 + 4) * 5 % 3);
 
-// console.log(+true);
-// console.log(+"");
+//tricky conversions (adding + as a suffix)
+// console.log(+true); => 1
+// console.log(+""); => 0
 
 let num1, num2, num3
 
