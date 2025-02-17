@@ -1,14 +1,14 @@
 
 function sayMyName(){
-    console.log("H");
+    console.log("N");
     console.log("I");
     console.log("T");
-    console.log("E");
+    console.log("I");
     console.log("S");
     console.log("H");
 }
 
-// sayMyName()
+ sayMyName()
 
 // function addTwoNumbers(number1, number2){
 
@@ -24,7 +24,7 @@ function addTwoNumbers(number1, number2){
 
 const result = addTwoNumbers(3, 5)
 
-// console.log("Result: ", result);
+console.log("Result: ", result);
 
 
 function loginUserMessage(username = "sam"){
@@ -35,18 +35,17 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
+ console.log(loginUserMessage("NITISH"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(val1, val2, ...num1){ // ...num1 is rest operator
     return num1
 }
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
-    username: "hitesh",
+    username: "nitish",
     prices: 199
 }
 
@@ -55,6 +54,8 @@ function handleObject(anyobject){
 }
 
 // handleObject(user)
+
+
 handleObject({
     username: "sam",
     price: 399
