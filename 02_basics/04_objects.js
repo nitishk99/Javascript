@@ -11,8 +11,8 @@ const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
-            firstname: "hitesh",
-            lastname: "choudhary"
+            firstname: "nitish",
+            lastname: "kumar"
         }
     }
 }
@@ -48,28 +48,31 @@ const users = [
 users[1].email
 // console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+console.log(Object.keys(tinderUser)); // returns array of keys
+console.log(Object.values(tinderUser)); // returns array of keys
+console.log(Object.entries(tinderUser)); // returns array of key value pair
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log(tinderUser.hasOwnProperty('isLoggedIn')); // => true
 
+
+//DESTRUCTURE OF OBJECTS
 
 const course = {
     coursename: "js in hindi",
     price: "999",
-    courseInstructor: "hitesh"
+    courseInstructor: "nitish"
 }
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor} = course
+console.log(courseInstructor);
 
-// console.log(courseInstructor);
+const {courseInstructor: instructor} = course 
 console.log(instructor);
 
 // {
-//     "name": "hitesh",
+//     "name": "nitish",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
